@@ -1,7 +1,3 @@
-#include<stdio.h>
-#include<stdint.h>
-#include<math.h>
-#include<sys/mman.h>
 #include "palloc.h"
 
 struct freeblock {
