@@ -1,5 +1,8 @@
 # MALLOC & FREE
-## Setup
+
+Recreation of the Malloc and Free memory management functions in C--which uses the name Palloc. Palloc creates and manages its own Heap 4096 bytes in size by default and can break up and allocate the memory accordingly based on "Worst Fit" (largest range of memory is broken up first). Free maintains memory address order and successfully merges neighboring unallocated blocks of memory both forwards and back. Running included executable runs the various tests included in ptests.c to showcase its capabilites as it walks through the 4096 bytes. Main functions included in palloc.c.
+
+## Setup for Tests
 > make
 
 > ./palloc
