@@ -1,6 +1,7 @@
 # MALLOC & FREE
 ## Setup
 > make
+
 > ./palloc
 
 ##Tests
